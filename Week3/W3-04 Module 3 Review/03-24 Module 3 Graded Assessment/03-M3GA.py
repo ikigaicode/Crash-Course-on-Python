@@ -2,9 +2,10 @@ def digits(n):
 	count = 0
 	if n == 0:
 	  return 1
-	while (___):
+	while int(n) != 0:
 		count += 1
-		___
+		print("count = " + str(count) + " | n = " + str(n))
+		n = n / 10
 	return count
 
 print(digits(25))   # Should print 2

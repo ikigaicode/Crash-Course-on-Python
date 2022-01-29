@@ -1,4 +1,5 @@
-#def votes(params):
-def votes(['yes', 'no', 'maybe'])
+def votes(params):
 	for vote in params:
 	    print("Possible option:" + vote)
+
+votes(["Yes", "No", "Maybe"])

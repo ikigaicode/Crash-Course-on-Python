@@ -1,5 +1,5 @@
 name = "Sasha"
 color = 'Purple'
-place = "Sonora'
+place = "Sonora"
 
-print("Name: " + name + ", Favorite color: " + color) 
+print("Name: " + name + ", Favorite color: " + color)

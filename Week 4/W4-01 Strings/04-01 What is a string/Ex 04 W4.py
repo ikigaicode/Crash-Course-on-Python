@@ -1,0 +1,1 @@
+"ikigaicode" * 3

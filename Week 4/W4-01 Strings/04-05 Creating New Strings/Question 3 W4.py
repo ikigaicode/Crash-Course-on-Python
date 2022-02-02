@@ -1,2 +1,2 @@
 word = "supercalifragilisticexpialidocious"
-print(___)
+print(word.index("x"))

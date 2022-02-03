@@ -1,5 +1,3 @@
-"Mountains".upper()
-print("Mountains".upper())
-
-"Mountains".lower()
-print("Mountains".lower())
+answer = "YES"
+if answer.lower() == "yes":
+    print("User said yes")

@@ -1,3 +1,5 @@
 # join method
 
-" ".join(["This", "is", ])
+" ".join(["This", "is", "a", "phrase", "joined" , "by", "spaces"])
+
+print(" ".join(["This", "is", "a", "phrase", "joined" , "by", "spaces"]))

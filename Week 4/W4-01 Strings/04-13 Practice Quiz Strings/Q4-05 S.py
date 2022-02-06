@@ -10,12 +10,12 @@
 # (no changes made).
 def replace_ending(sentence, old, new):
 	# Check if the old string is at the end of the sentence
-	if ___:
+	if sentence.endswith(old):
 		# Using i as the slicing index, combine the part
 		# of the sentence up to the matched string at the
 		# end with the new string
-		i = ___
-		new_sentence = ___
+		i = len(sentence) - len(old) - 1
+		new_sentence = sentence[:i] + new
 		return new_sentence
 
 	# Return the original sentence if there is no match

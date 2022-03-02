@@ -13,3 +13,5 @@ print("are" in x)
 print("Today" in x)
 
 print(x[0])
+
+print(x[3])

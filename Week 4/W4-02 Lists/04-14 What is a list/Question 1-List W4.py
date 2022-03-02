@@ -3,11 +3,18 @@
 # a passed sentence.
 # For example, get_word("This is a lesson about lists", 4)
 # should return "lesson", which is the 4th word in this sentence.
-# Hint: remember that list indexes start at 0, not 1. 
+# Hint: remember that list indexes start at 0, not 1.
 
-def student_grade(name, grade):
-    return "{nombre} received {grado}% on the exam".format(nombre=name, grado=grade)
+def get_word(sentence, n):
+	# Only proceed if n is positive
+	if n > 0:
+		words = sentence.split()
+		# Only proceed if n is not more than the number of words
+		if n <= len(words):
+			return(words[n-1])
+	return("")
 
-print(student_grade("Reed", 80))
-print(student_grade("Paige", 92))
-print(student_grade("Jesse", 85))
+print(get_word("This is a lesson about lists", 4)) # Should print: lesson
+print(get_word("This is a lesson about lists", -4)) # Nothing
+print(get_word("Now we are cooking!", 1)) # Should print: Now
+print(get_word("Now we are cooking!", 5)) # Nothing

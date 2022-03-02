@@ -4,4 +4,7 @@ print (type(x))
 print(x)
 
 len(x)
-print(len(x)
+print(len(x))
+
+"are" in x
+print("are" in x)

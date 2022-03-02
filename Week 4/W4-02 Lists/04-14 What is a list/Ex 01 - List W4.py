@@ -19,3 +19,4 @@ print(x[3])
 print(x[4])
 
 x[1:3]
+print(x[1:3])

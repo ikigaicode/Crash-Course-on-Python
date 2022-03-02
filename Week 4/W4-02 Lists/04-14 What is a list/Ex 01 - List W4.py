@@ -8,3 +8,6 @@ print(len(x))
 
 "are" in x
 print("are" in x)
+
+"Today" in x
+print("Today" in x)

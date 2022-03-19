@@ -12,3 +12,6 @@ print(result)
 
 hours, minutes, seconds = result
 print(hours, minutes, seconds)
+
+hours, minutes, seconds = convert_seconds(1000)
+print(hours, minutes, seconds)

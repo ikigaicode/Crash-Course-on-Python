@@ -7,3 +7,5 @@ def convert_seconds(seconds):
 result = convert_seconds(5000)
 type(result)
 print(type(result))
+
+print(result)

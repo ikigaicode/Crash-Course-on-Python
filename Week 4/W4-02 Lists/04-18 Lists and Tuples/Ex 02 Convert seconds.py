@@ -9,3 +9,6 @@ type(result)
 print(type(result))
 
 print(result)
+
+hours, minutes, seconds = result
+print(hours, minutes, seconds)

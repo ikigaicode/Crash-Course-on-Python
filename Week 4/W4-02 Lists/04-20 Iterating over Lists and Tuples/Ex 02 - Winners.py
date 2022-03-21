@@ -1,3 +1,3 @@
 winners = ["Ashley", "Dylan", "Reese"]
-for index, person for enumerate(winners):
+for index, person in enumerate(winners):
     print("{} - {}" .format(index + 1, person))
